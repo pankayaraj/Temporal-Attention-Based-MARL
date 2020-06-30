@@ -1,0 +1,16 @@
+Num success 0/30 | Episode Length 50.00
+Num success 0/30 | Episode Length 50.00
+Num success 1/30 | Episode Length 48.67
+Num success 30/30 | Episode Length 14.40
+Num success 30/30 | Episode Length 10.17
+Num success 30/30 | Episode Length 11.10
+Num success 30/30 | Episode Length 9.47
+Num success 30/30 | Episode Length 10.27
+Num success 30/30 | Episode Length 9.47
+Num success 30/30 | Episode Length 9.30
+Num success 30/30 | Episode Length 9.43
+Num success 30/30 | Episode Length 9.27
+Num success 30/30 | Episode Length 8.67
+Num success 30/30 | Episode Length 8.43
+Num success 30/30 | Episode Length 9.40
+Num success 30/30 | Episode Length 8.43
