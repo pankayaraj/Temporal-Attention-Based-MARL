@@ -1,6 +1,8 @@
 # Temporal-Attention-Based-MARL
 
 ## Description
+### About
+> This repositiory consist of the implementation for the work on "Multi-Agent Reinforcement Learning in SparselyConnected Cooperative Environments"
 
 ### Abstract
 
