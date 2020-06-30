@@ -2,7 +2,7 @@
 
 ## Description
 ### About
-> This repositiory consist of the implementation for the work on "Multi-Agent Reinforcement Learning in Sparsely Connected Cooperative Environments"
+> This repository includes the corresponding implementation for the work on "Multi-Agent Reinforcement Learning in Sparsely Connected Cooperative Environments"
 
 ### Abstract
 
