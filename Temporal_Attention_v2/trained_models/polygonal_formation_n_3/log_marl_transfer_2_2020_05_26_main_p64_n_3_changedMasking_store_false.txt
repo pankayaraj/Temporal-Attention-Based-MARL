@@ -1,0 +1,1313 @@
+Tue May 26 14:22:51 UTC 2020
+{'algo': 'ppo',
+ 'arena_size': 1,
+ 'clip_param': 0.2,
+ 'clipped_value_loss': True,
+ 'continue_training': False,
+ 'cuda': True,
+ 'device': device(type='cuda'),
+ 'dist_threshold': 0.1,
+ 'dropout_masking': True,
+ 'entity_mp': False,
+ 'entropy_coef': 0.01,
+ 'env_name': 'simple_formation',
+ 'eval_interval': 50,
+ 'gamma': 0.99,
+ 'identity_size': 0,
+ 'load_dir': None,
+ 'log_dir': '../marlsave/save_new/tmp/logs',
+ 'log_interval': 10,
+ 'lr': 0.0001,
+ 'mask_dist': -10,
+ 'masking': True,
+ 'max_grad_norm': 0.5,
+ 'no_clipped_value_loss': False,
+ 'no_cuda': False,
+ 'num_agents': 3,
+ 'num_eval_episodes': 30,
+ 'num_frames': 50000000,
+ 'num_mini_batch': 32,
+ 'num_processes': 64,
+ 'num_steps': 128,
+ 'num_updates': 40000,
+ 'ppo_epoch': 4,
+ 'record_video': False,
+ 'render': False,
+ 'save_dir': '../marlsave/save_new/tmp',
+ 'save_interval': 200,
+ 'seed': 822,
+ 'tau': 0.95,
+ 'test': False,
+ 'value_loss_coef': 0.5}
+Updates 0 | Num timesteps 8192 | Time 0:00:06.303392 | FPS 1299
+Mean reward [-2.7757 -2.7757 -2.7757]
+Entropy 1.6038 Value loss 1.3642 Policy loss 0.0002
+
+===========================================================================================
+Evaluation Seed:  36449
+Evaluation 0 | Mean per-step reward -1.77
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [9.0693 9.1544 9.4605]
+Final_dists_var [0.4439 0.4869 0.3656]
+===========================================================================================
+
+Updates 10 | Num timesteps 90112 | Time 0:01:23.162284 | FPS 1083
+Mean reward [-1.1169 -1.1169 -1.1169]
+Entropy 1.5186 Value loss 0.0199 Policy loss -0.0023
+
+Updates 20 | Num timesteps 172032 | Time 0:02:33.133415 | FPS 1123
+Mean reward [-1.0836 -1.0836 -1.0836]
+Entropy 1.4751 Value loss 0.0114 Policy loss -0.0002
+
+Updates 30 | Num timesteps 253952 | Time 0:03:44.364161 | FPS 1131
+Mean reward [-1.2668 -1.2668 -1.2668]
+Entropy 1.4213 Value loss 0.0193 Policy loss -0.0007
+
+Updates 40 | Num timesteps 335872 | Time 0:04:55.124509 | FPS 1138
+Mean reward [-1.4234 -1.4234 -1.4234]
+Entropy 1.4014 Value loss 0.0225 Policy loss -0.0011
+
+Updates 50 | Num timesteps 417792 | Time 0:06:07.801902 | FPS 1135
+Mean reward [-1.5593 -1.5593 -1.5593]
+Entropy 1.3574 Value loss 0.0226 Policy loss -0.0002
+
+===========================================================================================
+Evaluation Seed:  72906
+Evaluation 1 | Mean per-step reward -0.42
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.4296 0.4044 0.4105]
+Final_dists_var [0.0169 0.0113 0.014 ]
+===========================================================================================
+
+Updates 60 | Num timesteps 499712 | Time 0:07:24.560318 | FPS 1124
+Mean reward [-1.6724 -1.6724 -1.6724]
+Entropy 1.3551 Value loss 0.0330 Policy loss -0.0007
+
+Updates 70 | Num timesteps 581632 | Time 0:08:34.861002 | FPS 1129
+Mean reward [-1.814 -1.814 -1.814]
+Entropy 1.3755 Value loss 0.0321 Policy loss -0.0004
+
+Updates 80 | Num timesteps 663552 | Time 0:09:45.287045 | FPS 1133
+Mean reward [-1.8889 -1.8889 -1.8889]
+Entropy 1.3649 Value loss 0.0451 Policy loss -0.0009
+
+Updates 90 | Num timesteps 745472 | Time 0:10:54.689492 | FPS 1138
+Mean reward [-2.0096 -2.0096 -2.0096]
+Entropy 1.4081 Value loss 0.0438 Policy loss -0.0004
+
+Updates 100 | Num timesteps 827392 | Time 0:12:05.889142 | FPS 1139
+Mean reward [-2.0511 -2.0511 -2.0511]
+Entropy 1.4056 Value loss 0.0391 Policy loss -0.0006
+
+===========================================================================================
+Evaluation Seed:  45703
+Evaluation 2 | Mean per-step reward -0.41
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.4088 0.4266 0.4008]
+Final_dists_var [0.0159 0.0065 0.0105]
+===========================================================================================
+
+Updates 110 | Num timesteps 909312 | Time 0:13:20.054015 | FPS 1136
+Mean reward [-2.1329 -2.1329 -2.1329]
+Entropy 1.3823 Value loss 0.0537 Policy loss -0.0005
+
+Updates 120 | Num timesteps 991232 | Time 0:14:29.199875 | FPS 1140
+Mean reward [-2.1868 -2.1868 -2.1868]
+Entropy 1.4353 Value loss 0.0505 Policy loss -0.0014
+
+Updates 130 | Num timesteps 1073152 | Time 0:15:40.355659 | FPS 1141
+Mean reward [-2.2188 -2.2188 -2.2188]
+Entropy 1.4172 Value loss 0.0655 Policy loss -0.0009
+
+Updates 140 | Num timesteps 1155072 | Time 0:16:49.104780 | FPS 1144
+Mean reward [-2.2708 -2.2708 -2.2708]
+Entropy 1.4244 Value loss 0.0589 Policy loss -0.0013
+
+Updates 150 | Num timesteps 1236992 | Time 0:17:58.385601 | FPS 1147
+Mean reward [-2.283 -2.283 -2.283]
+Entropy 1.3751 Value loss 0.0546 Policy loss -0.0005
+
+===========================================================================================
+Evaluation Seed:  14407
+Evaluation 3 | Mean per-step reward -0.40
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.3884 0.4027 0.3734]
+Final_dists_var [0.0125 0.0245 0.0311]
+===========================================================================================
+
+Updates 160 | Num timesteps 1318912 | Time 0:19:12.342711 | FPS 1144
+Mean reward [-2.4287 -2.4287 -2.4287]
+Entropy 1.3411 Value loss 0.0678 Policy loss -0.0007
+
+Updates 170 | Num timesteps 1400832 | Time 0:20:19.901533 | FPS 1148
+Mean reward [-2.3397 -2.3397 -2.3397]
+Entropy 1.3592 Value loss 0.0602 Policy loss -0.0004
+
+Updates 180 | Num timesteps 1482752 | Time 0:21:28.365272 | FPS 1150
+Mean reward [-2.4157 -2.4157 -2.4157]
+Entropy 1.3594 Value loss 0.0830 Policy loss 0.0001
+
+Updates 190 | Num timesteps 1564672 | Time 0:22:38.459782 | FPS 1151
+Mean reward [-2.536 -2.536 -2.536]
+Entropy 1.3594 Value loss 0.0746 Policy loss -0.0008
+
+Updates 200 | Num timesteps 1646592 | Time 0:23:47.148085 | FPS 1153
+Mean reward [-2.6211 -2.6211 -2.6211]
+Entropy 1.3456 Value loss 0.0687 Policy loss -0.0000
+
+===========================================================================================
+Evaluation Seed:  26680
+Evaluation 4 | Mean per-step reward -0.38
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.3725 0.3416 0.3642]
+Final_dists_var [0.0495 0.0364 0.0303]
+===========================================================================================
+
+Updates 210 | Num timesteps 1728512 | Time 0:25:02.439018 | FPS 1150
+Mean reward [-2.4435 -2.4435 -2.4435]
+Entropy 1.3619 Value loss 0.0791 Policy loss -0.0002
+
+Updates 220 | Num timesteps 1810432 | Time 0:26:10.451100 | FPS 1152
+Mean reward [-2.5148 -2.5148 -2.5148]
+Entropy 1.3010 Value loss 0.0686 Policy loss -0.0009
+
+Updates 230 | Num timesteps 1892352 | Time 0:27:19.897961 | FPS 1153
+Mean reward [-2.5352 -2.5352 -2.5352]
+Entropy 1.2862 Value loss 0.0867 Policy loss -0.0003
+
+Updates 240 | Num timesteps 1974272 | Time 0:28:28.476541 | FPS 1155
+Mean reward [-2.5802 -2.5802 -2.5802]
+Entropy 1.2056 Value loss 0.0800 Policy loss -0.0002
+
+Updates 250 | Num timesteps 2056192 | Time 0:29:36.671483 | FPS 1157
+Mean reward [-2.6088 -2.6088 -2.6088]
+Entropy 1.1852 Value loss 0.0752 Policy loss 0.0003
+
+===========================================================================================
+Evaluation Seed:  54284
+Evaluation 5 | Mean per-step reward -0.37
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.3433 0.3659 0.3594]
+Final_dists_var [0.0633 0.0653 0.0483]
+===========================================================================================
+
+Updates 260 | Num timesteps 2138112 | Time 0:30:49.997643 | FPS 1155
+Mean reward [-2.6295 -2.6295 -2.6295]
+Entropy 1.0660 Value loss 0.0870 Policy loss 0.0017
+
+Updates 270 | Num timesteps 2220032 | Time 0:31:58.483628 | FPS 1157
+Mean reward [-2.6186 -2.6186 -2.6186]
+Entropy 1.0571 Value loss 0.0821 Policy loss 0.0006
+
+Updates 280 | Num timesteps 2301952 | Time 0:33:07.224368 | FPS 1158
+Mean reward [-2.6044 -2.6044 -2.6044]
+Entropy 0.9388 Value loss 0.0879 Policy loss 0.0012
+
+Updates 290 | Num timesteps 2383872 | Time 0:34:15.726328 | FPS 1159
+Mean reward [-2.6784 -2.6784 -2.6784]
+Entropy 0.8603 Value loss 0.0803 Policy loss 0.0019
+
+Updates 300 | Num timesteps 2465792 | Time 0:35:24.452162 | FPS 1160
+Mean reward [-2.5904 -2.5904 -2.5904]
+Entropy 0.8209 Value loss 0.0694 Policy loss 0.0005
+
+===========================================================================================
+Evaluation Seed:  12045
+Evaluation 6 | Mean per-step reward -0.40
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.3705 0.3354 0.372 ]
+Final_dists_var [0.0821 0.0587 0.067 ]
+===========================================================================================
+
+Updates 310 | Num timesteps 2547712 | Time 0:36:39.550088 | FPS 1158
+Mean reward [-2.6398 -2.6398 -2.6398]
+Entropy 0.7208 Value loss 0.0832 Policy loss 0.0018
+
+Updates 320 | Num timesteps 2629632 | Time 0:37:47.617505 | FPS 1159
+Mean reward [-2.5263 -2.5263 -2.5263]
+Entropy 0.6039 Value loss 0.0724 Policy loss 0.0026
+
+Updates 330 | Num timesteps 2711552 | Time 0:38:56.173590 | FPS 1160
+Mean reward [-2.5382 -2.5382 -2.5382]
+Entropy 0.5612 Value loss 0.0797 Policy loss 0.0019
+
+Updates 340 | Num timesteps 2793472 | Time 0:40:04.523627 | FPS 1161
+Mean reward [-2.1747 -2.1747 -2.1747]
+Entropy 0.5136 Value loss 0.0712 Policy loss 0.0039
+
+Updates 350 | Num timesteps 2875392 | Time 0:41:12.003307 | FPS 1163
+Mean reward [-2.3416 -2.3416 -2.3416]
+Entropy 0.3999 Value loss 0.0575 Policy loss 0.0042
+
+===========================================================================================
+Evaluation Seed:  27256
+Evaluation 7 | Mean per-step reward -0.31
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.2357 0.3333 0.2646]
+Final_dists_var [0.0503 0.0735 0.0534]
+===========================================================================================
+
+Updates 360 | Num timesteps 2957312 | Time 0:42:25.478396 | FPS 1161
+Mean reward [-2.2258 -2.2258 -2.2258]
+Entropy 0.3677 Value loss 0.0542 Policy loss 0.0033
+
+Updates 370 | Num timesteps 3039232 | Time 0:43:30.982002 | FPS 1164
+Mean reward [-1.9937 -1.9937 -1.9937]
+Entropy 0.3175 Value loss 0.0440 Policy loss 0.0037
+
+Updates 380 | Num timesteps 3121152 | Time 0:44:38.729088 | FPS 1165
+Mean reward [-1.9408 -1.9408 -1.9408]
+Entropy 0.2925 Value loss 0.0460 Policy loss 0.0073
+
+Updates 390 | Num timesteps 3203072 | Time 0:45:46.418592 | FPS 1166
+Mean reward [-1.8638 -1.8638 -1.8638]
+Entropy 0.3295 Value loss 0.0451 Policy loss 0.0060
+
+Updates 400 | Num timesteps 3284992 | Time 0:46:53.627326 | FPS 1167
+Mean reward [-1.7992 -1.7992 -1.7992]
+Entropy 0.2752 Value loss 0.0382 Policy loss 0.0061
+
+===========================================================================================
+Evaluation Seed:  95994
+Evaluation 8 | Mean per-step reward -0.30
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.2983 0.3361 0.1839]
+Final_dists_var [0.1042 0.0871 0.0512]
+===========================================================================================
+
+Updates 410 | Num timesteps 3366912 | Time 0:48:08.343831 | FPS 1165
+Mean reward [-1.6856 -1.6856 -1.6856]
+Entropy 0.2540 Value loss 0.0351 Policy loss 0.0045
+
+Updates 420 | Num timesteps 3448832 | Time 0:49:16.725212 | FPS 1166
+Mean reward [-1.7426 -1.7426 -1.7426]
+Entropy 0.2873 Value loss 0.0374 Policy loss 0.0067
+
+Updates 430 | Num timesteps 3530752 | Time 0:50:24.385273 | FPS 1167
+Mean reward [-1.5547 -1.5547 -1.5547]
+Entropy 0.2965 Value loss 0.0284 Policy loss 0.0062
+
+Updates 440 | Num timesteps 3612672 | Time 0:51:32.796856 | FPS 1168
+Mean reward [-1.5555 -1.5555 -1.5555]
+Entropy 0.3664 Value loss 0.0260 Policy loss 0.0063
+
+Updates 450 | Num timesteps 3694592 | Time 0:52:39.843520 | FPS 1169
+Mean reward [-1.3928 -1.3928 -1.3928]
+Entropy 0.3420 Value loss 0.0284 Policy loss 0.0056
+
+===========================================================================================
+Evaluation Seed:  49390
+Evaluation 9 | Mean per-step reward -0.29
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.1995 0.3003 0.2503]
+Final_dists_var [0.063  0.0733 0.082 ]
+===========================================================================================
+
+Updates 460 | Num timesteps 3776512 | Time 0:53:54.114632 | FPS 1167
+Mean reward [-1.4764 -1.4764 -1.4764]
+Entropy 0.3399 Value loss 0.0216 Policy loss 0.0123
+
+Updates 470 | Num timesteps 3858432 | Time 0:54:59.775390 | FPS 1169
+Mean reward [-1.2605 -1.2605 -1.2605]
+Entropy 0.3111 Value loss 0.0188 Policy loss 0.0073
+
+Updates 480 | Num timesteps 3940352 | Time 0:56:07.477739 | FPS 1170
+Mean reward [-1.2326 -1.2326 -1.2326]
+Entropy 0.3771 Value loss 0.0182 Policy loss 0.0089
+
+Updates 490 | Num timesteps 4022272 | Time 0:57:14.840999 | FPS 1171
+Mean reward [-1.2468 -1.2468 -1.2468]
+Entropy 0.3696 Value loss 0.0159 Policy loss 0.0064
+
+Updates 500 | Num timesteps 4104192 | Time 0:58:21.580538 | FPS 1172
+Mean reward [-1.1435 -1.1435 -1.1435]
+Entropy 0.3763 Value loss 0.0154 Policy loss 0.0151
+
+===========================================================================================
+Evaluation Seed:  9433
+Evaluation 10 | Mean per-step reward -0.25
+Num success 1/30 | Episode Length 49.03
+Final_dists_mean [0.2432 0.2441 0.1286]
+Final_dists_var [0.089  0.0777 0.0301]
+===========================================================================================
+
+Updates 510 | Num timesteps 4186112 | Time 0:59:33.987926 | FPS 1171
+Mean reward [-1.0645 -1.0645 -1.0645]
+Entropy 0.3265 Value loss 0.0126 Policy loss 0.0077
+
+Updates 520 | Num timesteps 4268032 | Time 1:00:39.647899 | FPS 1172
+Mean reward [-1.0404 -1.0404 -1.0404]
+Entropy 0.3347 Value loss 0.0147 Policy loss 0.0062
+
+Updates 530 | Num timesteps 4349952 | Time 1:01:46.286358 | FPS 1173
+Mean reward [-0.9882 -0.9882 -0.9882]
+Entropy 0.3604 Value loss 0.0123 Policy loss 0.0107
+
+Updates 540 | Num timesteps 4431872 | Time 1:02:54.331060 | FPS 1174
+Mean reward [-0.9463 -0.9463 -0.9463]
+Entropy 0.3613 Value loss 0.0105 Policy loss 0.0148
+
+Updates 550 | Num timesteps 4513792 | Time 1:04:00.579276 | FPS 1175
+Mean reward [-0.9061 -0.9061 -0.9061]
+Entropy 0.4404 Value loss 0.0124 Policy loss 0.0064
+
+===========================================================================================
+Evaluation Seed:  68869
+Evaluation 11 | Mean per-step reward -0.27
+Num success 0/30 | Episode Length 50.00
+Final_dists_mean [0.2713 0.2544 0.1444]
+Final_dists_var [0.0829 0.098  0.0392]
+===========================================================================================
+
+Updates 560 | Num timesteps 4595712 | Time 1:05:13.381222 | FPS 1174
+Mean reward [-0.8916 -0.8916 -0.8916]
+Entropy 0.4049 Value loss 0.0092 Policy loss 0.0128
+
+Updates 570 | Num timesteps 4677632 | Time 1:06:19.679952 | FPS 1175
+Mean reward [-0.8964 -0.8964 -0.8964]
+Entropy 0.3367 Value loss 0.0094 Policy loss 0.0096
+
+Updates 580 | Num timesteps 4759552 | Time 1:07:25.472633 | FPS 1176
+Mean reward [-0.9408 -0.9408 -0.9408]
+Entropy 0.3771 Value loss 0.0090 Policy loss 0.0114
+
+Updates 590 | Num timesteps 4841472 | Time 1:08:31.380660 | FPS 1177
+Mean reward [-0.8352 -0.8352 -0.8352]
+Entropy 0.4283 Value loss 0.0084 Policy loss 0.0120
+
+Updates 600 | Num timesteps 4923392 | Time 1:09:39.212786 | FPS 1178
+Mean reward [-0.7441 -0.7441 -0.7441]
+Entropy 0.4793 Value loss 0.0067 Policy loss 0.0158
+
+===========================================================================================
+Evaluation Seed:  67700
+Evaluation 12 | Mean per-step reward -0.21
+Num success 2/30 | Episode Length 47.57
+Final_dists_mean [0.1458 0.1735 0.1171]
+Final_dists_var [0.0264 0.0643 0.0207]
+===========================================================================================
+
+Updates 610 | Num timesteps 5005312 | Time 1:10:51.870309 | FPS 1177
+Mean reward [-0.8671 -0.8671 -0.8671]
+Entropy 0.4589 Value loss 0.0077 Policy loss 0.0105
+
+Updates 620 | Num timesteps 5087232 | Time 1:11:57.599868 | FPS 1178
+Mean reward [-0.6776 -0.6776 -0.6776]
+Entropy 0.5538 Value loss 0.0082 Policy loss 0.0124
+
+Updates 630 | Num timesteps 5169152 | Time 1:13:05.273771 | FPS 1178
+Mean reward [-0.787 -0.787 -0.787]
+Entropy 0.5675 Value loss 0.0089 Policy loss 0.0097
+
+Updates 640 | Num timesteps 5251072 | Time 1:14:13.200435 | FPS 1179
+Mean reward [-0.6022 -0.6022 -0.6022]
+Entropy 0.6401 Value loss 0.0066 Policy loss 0.0123
+
+Updates 650 | Num timesteps 5332992 | Time 1:15:21.872118 | FPS 1179
+Mean reward [-0.773 -0.773 -0.773]
+Entropy 0.6668 Value loss 0.0084 Policy loss 0.0131
+
+===========================================================================================
+Evaluation Seed:  82741
+Evaluation 13 | Mean per-step reward -0.24
+Num success 6/30 | Episode Length 42.23
+Final_dists_mean [0.1687 0.1418 0.0867]
+Final_dists_var [0.0762 0.038  0.0156]
+===========================================================================================
+
+Updates 660 | Num timesteps 5414912 | Time 1:16:33.242738 | FPS 1178
+Mean reward [-0.6287 -0.6287 -0.6287]
+Entropy 0.7545 Value loss 0.0067 Policy loss 0.0147
+
+Updates 670 | Num timesteps 5496832 | Time 1:17:39.683006 | FPS 1179
+Mean reward [-0.5761 -0.5761 -0.5761]
+Entropy 0.7659 Value loss 0.0069 Policy loss 0.0156
+
+Updates 680 | Num timesteps 5578752 | Time 1:18:47.592339 | FPS 1180
+Mean reward [-0.4997 -0.4997 -0.4997]
+Entropy 0.7606 Value loss 0.0059 Policy loss 0.0156
+
+Updates 690 | Num timesteps 5660672 | Time 1:19:56.424120 | FPS 1180
+Mean reward [-0.5456 -0.5456 -0.5456]
+Entropy 0.7831 Value loss 0.0089 Policy loss 0.0258
+
+Updates 700 | Num timesteps 5742592 | Time 1:21:02.854796 | FPS 1180
+Mean reward [-0.4294 -0.4294 -0.4294]
+Entropy 0.7766 Value loss 0.0088 Policy loss 0.0159
+
+===========================================================================================
+Evaluation Seed:  77651
+Evaluation 14 | Mean per-step reward -0.21
+Num success 19/30 | Episode Length 29.27
+Final_dists_mean [0.0349 0.0466 0.0387]
+Final_dists_var [0.0005 0.0009 0.0004]
+===========================================================================================
+
+Updates 710 | Num timesteps 5824512 | Time 1:22:13.762808 | FPS 1180
+Mean reward [-0.4636 -0.4636 -0.4636]
+Entropy 0.7603 Value loss 0.0068 Policy loss 0.0236
+
+Updates 720 | Num timesteps 5906432 | Time 1:23:22.363500 | FPS 1180
+Mean reward [-0.4278 -0.4278 -0.4278]
+Entropy 0.7543 Value loss 0.0060 Policy loss 0.0230
+
+Updates 730 | Num timesteps 5988352 | Time 1:24:31.328675 | FPS 1180
+Mean reward [-0.4575 -0.4575 -0.4575]
+Entropy 0.7475 Value loss 0.0079 Policy loss 0.0199
+
+Updates 740 | Num timesteps 6070272 | Time 1:25:40.028385 | FPS 1180
+Mean reward [-0.4718 -0.4718 -0.4718]
+Entropy 0.7690 Value loss 0.0078 Policy loss 0.0167
+
+Updates 750 | Num timesteps 6152192 | Time 1:26:48.703978 | FPS 1181
+Mean reward [-0.4758 -0.4758 -0.4758]
+Entropy 0.7729 Value loss 0.0056 Policy loss 0.0172
+
+===========================================================================================
+Evaluation Seed:  82916
+Evaluation 15 | Mean per-step reward -0.26
+Num success 29/30 | Episode Length 15.50
+Final_dists_mean [0.0294 0.0283 0.0277]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 760 | Num timesteps 6234112 | Time 1:27:58.262877 | FPS 1181
+Mean reward [-0.4606 -0.4606 -0.4606]
+Entropy 0.7436 Value loss 0.0068 Policy loss 0.0206
+
+Updates 770 | Num timesteps 6316032 | Time 1:29:07.228378 | FPS 1181
+Mean reward [-0.4783 -0.4783 -0.4783]
+Entropy 0.7420 Value loss 0.0089 Policy loss 0.0148
+
+Updates 780 | Num timesteps 6397952 | Time 1:30:14.267550 | FPS 1181
+Mean reward [-0.4794 -0.4794 -0.4794]
+Entropy 0.7049 Value loss 0.0063 Policy loss 0.0185
+
+Updates 790 | Num timesteps 6479872 | Time 1:31:22.017788 | FPS 1182
+Mean reward [-0.4289 -0.4289 -0.4289]
+Entropy 0.7015 Value loss 0.0066 Policy loss 0.0161
+
+Updates 800 | Num timesteps 6561792 | Time 1:32:29.053019 | FPS 1182
+Mean reward [-0.4808 -0.4808 -0.4808]
+Entropy 0.6809 Value loss 0.0089 Policy loss 0.0118
+
+===========================================================================================
+Evaluation Seed:  37999
+Evaluation 16 | Mean per-step reward -0.28
+Num success 29/30 | Episode Length 17.30
+Final_dists_mean [0.0266 0.0317 0.0265]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 810 | Num timesteps 6643712 | Time 1:33:40.868923 | FPS 1181
+Mean reward [-0.5485 -0.5485 -0.5485]
+Entropy 0.6812 Value loss 0.0085 Policy loss 0.0157
+
+Updates 820 | Num timesteps 6725632 | Time 1:34:48.777545 | FPS 1182
+Mean reward [-0.4645 -0.4645 -0.4645]
+Entropy 0.6758 Value loss 0.0073 Policy loss 0.0146
+
+Updates 830 | Num timesteps 6807552 | Time 1:35:56.869374 | FPS 1182
+Mean reward [-0.5504 -0.5504 -0.5504]
+Entropy 0.7249 Value loss 0.0099 Policy loss 0.0128
+
+Updates 840 | Num timesteps 6889472 | Time 1:37:05.286603 | FPS 1182
+Mean reward [-0.4528 -0.4528 -0.4528]
+Entropy 0.7100 Value loss 0.0084 Policy loss 0.0327
+
+Updates 850 | Num timesteps 6971392 | Time 1:38:12.054222 | FPS 1183
+Mean reward [-0.5749 -0.5749 -0.5749]
+Entropy 0.7194 Value loss 0.0097 Policy loss 0.0128
+
+===========================================================================================
+Evaluation Seed:  95093
+Evaluation 17 | Mean per-step reward -0.28
+Num success 29/30 | Episode Length 15.23
+Final_dists_mean [0.0276 0.0264 0.0304]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 860 | Num timesteps 7053312 | Time 1:39:21.866711 | FPS 1183
+Mean reward [-0.4792 -0.4792 -0.4792]
+Entropy 0.7233 Value loss 0.0081 Policy loss 0.0152
+
+Updates 870 | Num timesteps 7135232 | Time 1:40:30.828382 | FPS 1183
+Mean reward [-0.4069 -0.4069 -0.4069]
+Entropy 0.7342 Value loss 0.0075 Policy loss 0.0190
+
+Updates 880 | Num timesteps 7217152 | Time 1:41:39.850856 | FPS 1183
+Mean reward [-0.5209 -0.5209 -0.5209]
+Entropy 0.7318 Value loss 0.0089 Policy loss 0.0168
+
+Updates 890 | Num timesteps 7299072 | Time 1:42:48.706613 | FPS 1183
+Mean reward [-0.599 -0.599 -0.599]
+Entropy 0.7230 Value loss 0.0093 Policy loss 0.0135
+
+Updates 900 | Num timesteps 7380992 | Time 1:43:57.328938 | FPS 1183
+Mean reward [-0.5035 -0.5035 -0.5035]
+Entropy 0.6803 Value loss 0.0073 Policy loss 0.0171
+
+===========================================================================================
+Evaluation Seed:  52465
+Evaluation 18 | Mean per-step reward -0.29
+Num success 29/30 | Episode Length 15.37
+Final_dists_mean [0.0256 0.0253 0.0278]
+Final_dists_var [0.0002 0.0003 0.0002]
+===========================================================================================
+
+Updates 910 | Num timesteps 7462912 | Time 1:45:05.245181 | FPS 1183
+Mean reward [-0.5927 -0.5927 -0.5927]
+Entropy 0.6950 Value loss 0.0087 Policy loss 0.0134
+
+Updates 920 | Num timesteps 7544832 | Time 1:46:13.507479 | FPS 1183
+Mean reward [-0.4115 -0.4115 -0.4115]
+Entropy 0.7001 Value loss 0.0066 Policy loss 0.0137
+
+Updates 930 | Num timesteps 7626752 | Time 1:47:21.993906 | FPS 1183
+Mean reward [-0.5231 -0.5231 -0.5231]
+Entropy 0.6943 Value loss 0.0092 Policy loss 0.0245
+
+Updates 940 | Num timesteps 7708672 | Time 1:48:30.305594 | FPS 1184
+Mean reward [-0.519 -0.519 -0.519]
+Entropy 0.6651 Value loss 0.0070 Policy loss 0.0204
+
+Updates 950 | Num timesteps 7790592 | Time 1:49:39.299004 | FPS 1184
+Mean reward [-0.4883 -0.4883 -0.4883]
+Entropy 0.6647 Value loss 0.0094 Policy loss 0.0210
+
+===========================================================================================
+Evaluation Seed:  99779
+Evaluation 19 | Mean per-step reward -0.28
+Num success 29/30 | Episode Length 13.83
+Final_dists_mean [0.0545 0.0272 0.023 ]
+Final_dists_var [0.0205 0.0002 0.0001]
+===========================================================================================
+
+Updates 960 | Num timesteps 7872512 | Time 1:50:47.838388 | FPS 1184
+Mean reward [-0.412 -0.412 -0.412]
+Entropy 0.6793 Value loss 0.0080 Policy loss 0.0151
+
+Updates 970 | Num timesteps 7954432 | Time 1:51:57.270867 | FPS 1184
+Mean reward [-0.4876 -0.4876 -0.4876]
+Entropy 0.6976 Value loss 0.0089 Policy loss 0.0225
+
+Updates 980 | Num timesteps 8036352 | Time 1:53:04.724199 | FPS 1184
+Mean reward [-0.4508 -0.4508 -0.4508]
+Entropy 0.7119 Value loss 0.0103 Policy loss 0.0206
+
+Updates 990 | Num timesteps 8118272 | Time 1:54:13.673531 | FPS 1184
+Mean reward [-0.5644 -0.5644 -0.5644]
+Entropy 0.6993 Value loss 0.0083 Policy loss 0.0151
+
+Updates 1000 | Num timesteps 8200192 | Time 1:55:20.778861 | FPS 1184
+Mean reward [-0.4343 -0.4343 -0.4343]
+Entropy 0.6761 Value loss 0.0073 Policy loss 0.0163
+
+===========================================================================================
+Evaluation Seed:  4875
+Evaluation 20 | Mean per-step reward -0.31
+Num success 30/30 | Episode Length 14.70
+Final_dists_mean [0.0271 0.0296 0.0272]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 1010 | Num timesteps 8282112 | Time 1:56:32.112581 | FPS 1184
+Mean reward [-0.4806 -0.4806 -0.4806]
+Entropy 0.6642 Value loss 0.0081 Policy loss 0.0169
+
+Updates 1020 | Num timesteps 8364032 | Time 1:57:40.889216 | FPS 1184
+Mean reward [-0.542 -0.542 -0.542]
+Entropy 0.6870 Value loss 0.0103 Policy loss 0.0133
+
+Updates 1030 | Num timesteps 8445952 | Time 1:58:48.770598 | FPS 1184
+Mean reward [-0.476 -0.476 -0.476]
+Entropy 0.6847 Value loss 0.0076 Policy loss 0.0164
+
+Updates 1040 | Num timesteps 8527872 | Time 1:59:58.439416 | FPS 1184
+Mean reward [-0.5536 -0.5536 -0.5536]
+Entropy 0.7040 Value loss 0.0095 Policy loss 0.0142
+
+Updates 1050 | Num timesteps 8609792 | Time 2:01:07.809369 | FPS 1184
+Mean reward [-0.5024 -0.5024 -0.5024]
+Entropy 0.6879 Value loss 0.0077 Policy loss 0.0202
+
+===========================================================================================
+Evaluation Seed:  17314
+Evaluation 21 | Mean per-step reward -0.27
+Num success 29/30 | Episode Length 15.83
+Final_dists_mean [0.0291 0.0297 0.0245]
+Final_dists_var [0.0002 0.0003 0.0002]
+===========================================================================================
+
+Updates 1060 | Num timesteps 8691712 | Time 2:02:18.679768 | FPS 1184
+Mean reward [-0.5308 -0.5308 -0.5308]
+Entropy 0.6904 Value loss 0.0081 Policy loss 0.0122
+
+Updates 1070 | Num timesteps 8773632 | Time 2:03:26.779734 | FPS 1184
+Mean reward [-0.4711 -0.4711 -0.4711]
+Entropy 0.7122 Value loss 0.0090 Policy loss 0.0129
+
+Updates 1080 | Num timesteps 8855552 | Time 2:04:33.673964 | FPS 1184
+Mean reward [-0.5301 -0.5301 -0.5301]
+Entropy 0.6779 Value loss 0.0094 Policy loss 0.0174
+
+Updates 1090 | Num timesteps 8937472 | Time 2:05:41.023227 | FPS 1185
+Mean reward [-0.4805 -0.4805 -0.4805]
+Entropy 0.6829 Value loss 0.0095 Policy loss 0.0154
+
+Updates 1100 | Num timesteps 9019392 | Time 2:06:48.573288 | FPS 1185
+Mean reward [-0.4829 -0.4829 -0.4829]
+Entropy 0.6868 Value loss 0.0081 Policy loss 0.0196
+
+===========================================================================================
+Evaluation Seed:  34977
+Evaluation 22 | Mean per-step reward -0.28
+Num success 30/30 | Episode Length 13.13
+Final_dists_mean [0.0295 0.0267 0.0325]
+Final_dists_var [0.0001 0.0002 0.0002]
+===========================================================================================
+
+Updates 1110 | Num timesteps 9101312 | Time 2:07:58.324587 | FPS 1185
+Mean reward [-0.5581 -0.5581 -0.5581]
+Entropy 0.6795 Value loss 0.0091 Policy loss 0.0144
+
+Updates 1120 | Num timesteps 9183232 | Time 2:09:05.248075 | FPS 1185
+Mean reward [-0.4626 -0.4626 -0.4626]
+Entropy 0.6855 Value loss 0.0089 Policy loss 0.0200
+
+Updates 1130 | Num timesteps 9265152 | Time 2:10:13.477631 | FPS 1185
+Mean reward [-0.514 -0.514 -0.514]
+Entropy 0.6723 Value loss 0.0094 Policy loss 0.0125
+
+Updates 1140 | Num timesteps 9347072 | Time 2:11:21.531711 | FPS 1185
+Mean reward [-0.4954 -0.4954 -0.4954]
+Entropy 0.6603 Value loss 0.0082 Policy loss 0.0150
+
+Updates 1150 | Num timesteps 9428992 | Time 2:12:30.881367 | FPS 1185
+Mean reward [-0.6218 -0.6218 -0.6218]
+Entropy 0.6793 Value loss 0.0086 Policy loss 0.0144
+
+===========================================================================================
+Evaluation Seed:  28872
+Evaluation 23 | Mean per-step reward -0.29
+Num success 28/30 | Episode Length 16.20
+Final_dists_mean [0.023  0.0287 0.0277]
+Final_dists_var [0.0004 0.0003 0.0002]
+===========================================================================================
+
+Updates 1160 | Num timesteps 9510912 | Time 2:13:40.695654 | FPS 1185
+Mean reward [-0.5115 -0.5115 -0.5115]
+Entropy 0.6636 Value loss 0.0105 Policy loss 0.0144
+
+Updates 1170 | Num timesteps 9592832 | Time 2:14:49.253239 | FPS 1185
+Mean reward [-0.4437 -0.4437 -0.4437]
+Entropy 0.6794 Value loss 0.0111 Policy loss 0.0160
+
+Updates 1180 | Num timesteps 9674752 | Time 2:15:56.964481 | FPS 1186
+Mean reward [-0.5958 -0.5958 -0.5958]
+Entropy 0.6772 Value loss 0.0093 Policy loss 0.0154
+
+Updates 1190 | Num timesteps 9756672 | Time 2:17:04.815409 | FPS 1186
+Mean reward [-0.5832 -0.5832 -0.5832]
+Entropy 0.6650 Value loss 0.0083 Policy loss 0.0133
+
+Updates 1200 | Num timesteps 9838592 | Time 2:18:11.480475 | FPS 1186
+Mean reward [-0.5158 -0.5158 -0.5158]
+Entropy 0.6703 Value loss 0.0095 Policy loss 0.0205
+
+===========================================================================================
+Evaluation Seed:  79561
+Evaluation 24 | Mean per-step reward -0.26
+Num success 29/30 | Episode Length 14.13
+Final_dists_mean [0.0271 0.0238 0.0275]
+Final_dists_var [0.0002 0.0001 0.0002]
+===========================================================================================
+
+Updates 1210 | Num timesteps 9920512 | Time 2:19:20.400123 | FPS 1186
+Mean reward [-0.5672 -0.5672 -0.5672]
+Entropy 0.7022 Value loss 0.0108 Policy loss 0.0176
+
+Updates 1220 | Num timesteps 10002432 | Time 2:20:28.772236 | FPS 1186
+Mean reward [-0.5381 -0.5381 -0.5381]
+Entropy 0.7090 Value loss 0.0121 Policy loss 0.0200
+
+Updates 1230 | Num timesteps 10084352 | Time 2:21:35.006880 | FPS 1187
+Mean reward [-0.5883 -0.5883 -0.5883]
+Entropy 0.7032 Value loss 0.0120 Policy loss 0.0180
+
+Updates 1240 | Num timesteps 10166272 | Time 2:22:43.202828 | FPS 1187
+Mean reward [-0.5257 -0.5257 -0.5257]
+Entropy 0.6720 Value loss 0.0091 Policy loss 0.0198
+
+Updates 1250 | Num timesteps 10248192 | Time 2:23:52.209653 | FPS 1187
+Mean reward [-0.5347 -0.5347 -0.5347]
+Entropy 0.6725 Value loss 0.0097 Policy loss 0.0185
+
+===========================================================================================
+Evaluation Seed:  59572
+Evaluation 25 | Mean per-step reward -0.29
+Num success 29/30 | Episode Length 16.13
+Final_dists_mean [0.0271 0.0242 0.024 ]
+Final_dists_var [0.0001 0.0002 0.0001]
+===========================================================================================
+
+Updates 1260 | Num timesteps 10330112 | Time 2:25:00.330162 | FPS 1187
+Mean reward [-0.4932 -0.4932 -0.4932]
+Entropy 0.6803 Value loss 0.0116 Policy loss 0.0148
+
+Updates 1270 | Num timesteps 10412032 | Time 2:26:09.011464 | FPS 1187
+Mean reward [-0.5435 -0.5435 -0.5435]
+Entropy 0.6758 Value loss 0.0124 Policy loss 0.0095
+
+Updates 1280 | Num timesteps 10493952 | Time 2:27:15.620393 | FPS 1187
+Mean reward [-0.5934 -0.5934 -0.5934]
+Entropy 0.6622 Value loss 0.0112 Policy loss 0.0122
+
+Updates 1290 | Num timesteps 10575872 | Time 2:28:22.522666 | FPS 1187
+Mean reward [-0.5523 -0.5523 -0.5523]
+Entropy 0.6451 Value loss 0.0103 Policy loss 0.0135
+
+Updates 1300 | Num timesteps 10657792 | Time 2:29:32.493457 | FPS 1187
+Mean reward [-0.6173 -0.6173 -0.6173]
+Entropy 0.6489 Value loss 0.0124 Policy loss 0.0200
+
+===========================================================================================
+Evaluation Seed:  50578
+Evaluation 26 | Mean per-step reward -0.31
+Num success 28/30 | Episode Length 17.07
+Final_dists_mean [0.028  0.0483 0.0192]
+Final_dists_var [0.0002 0.0192 0.0002]
+===========================================================================================
+
+Updates 1310 | Num timesteps 10739712 | Time 2:30:42.402876 | FPS 1187
+Mean reward [-0.5319 -0.5319 -0.5319]
+Entropy 0.6286 Value loss 0.0103 Policy loss 0.0182
+
+Updates 1320 | Num timesteps 10821632 | Time 2:31:50.744577 | FPS 1187
+Mean reward [-0.5477 -0.5477 -0.5477]
+Entropy 0.6402 Value loss 0.0113 Policy loss 0.0176
+
+Updates 1330 | Num timesteps 10903552 | Time 2:32:59.198120 | FPS 1187
+Mean reward [-0.4981 -0.4981 -0.4981]
+Entropy 0.6518 Value loss 0.0099 Policy loss 0.0147
+
+Updates 1340 | Num timesteps 10985472 | Time 2:34:06.477380 | FPS 1188
+Mean reward [-0.5832 -0.5832 -0.5832]
+Entropy 0.6478 Value loss 0.0140 Policy loss 0.0108
+
+Updates 1350 | Num timesteps 11067392 | Time 2:35:13.676439 | FPS 1188
+Mean reward [-0.4689 -0.4689 -0.4689]
+Entropy 0.6063 Value loss 0.0095 Policy loss 0.0197
+
+===========================================================================================
+Evaluation Seed:  14468
+Evaluation 27 | Mean per-step reward -0.29
+Num success 30/30 | Episode Length 14.20
+Final_dists_mean [0.0264 0.0272 0.0238]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 1360 | Num timesteps 11149312 | Time 2:36:21.083317 | FPS 1188
+Mean reward [-0.5541 -0.5541 -0.5541]
+Entropy 0.6129 Value loss 0.0102 Policy loss 0.0226
+
+Updates 1370 | Num timesteps 11231232 | Time 2:37:26.247832 | FPS 1188
+Mean reward [-0.5772 -0.5772 -0.5772]
+Entropy 0.6191 Value loss 0.0116 Policy loss 0.0164
+
+Updates 1380 | Num timesteps 11313152 | Time 2:38:34.079104 | FPS 1189
+Mean reward [-0.5804 -0.5804 -0.5804]
+Entropy 0.6044 Value loss 0.0096 Policy loss 0.0128
+
+Updates 1390 | Num timesteps 11395072 | Time 2:39:39.278041 | FPS 1189
+Mean reward [-0.5753 -0.5753 -0.5753]
+Entropy 0.6099 Value loss 0.0076 Policy loss 0.0159
+
+Updates 1400 | Num timesteps 11476992 | Time 2:40:45.208994 | FPS 1189
+Mean reward [-0.6731 -0.6731 -0.6731]
+Entropy 0.6557 Value loss 0.0181 Policy loss 0.0096
+
+===========================================================================================
+Evaluation Seed:  11266
+Evaluation 28 | Mean per-step reward -0.28
+Num success 29/30 | Episode Length 17.17
+Final_dists_mean [0.0276 0.0279 0.0286]
+Final_dists_var [0.0002 0.0002 0.0003]
+===========================================================================================
+
+Updates 1410 | Num timesteps 11558912 | Time 2:41:54.195827 | FPS 1189
+Mean reward [-0.6232 -0.6232 -0.6232]
+Entropy 0.6120 Value loss 0.0097 Policy loss 0.0135
+
+Updates 1420 | Num timesteps 11640832 | Time 2:43:02.364047 | FPS 1189
+Mean reward [-0.5806 -0.5806 -0.5806]
+Entropy 0.6354 Value loss 0.0118 Policy loss 0.0167
+
+Updates 1430 | Num timesteps 11722752 | Time 2:44:09.831154 | FPS 1190
+Mean reward [-0.584 -0.584 -0.584]
+Entropy 0.6296 Value loss 0.0119 Policy loss 0.0146
+
+Updates 1440 | Num timesteps 11804672 | Time 2:45:17.835906 | FPS 1190
+Mean reward [-0.4958 -0.4958 -0.4958]
+Entropy 0.6231 Value loss 0.0098 Policy loss 0.0211
+
+Updates 1450 | Num timesteps 11886592 | Time 2:46:24.408809 | FPS 1190
+Mean reward [-0.5703 -0.5703 -0.5703]
+Entropy 0.6281 Value loss 0.0116 Policy loss 0.0131
+
+===========================================================================================
+Evaluation Seed:  52662
+Evaluation 29 | Mean per-step reward -0.27
+Num success 30/30 | Episode Length 12.67
+Final_dists_mean [0.0314 0.0229 0.026 ]
+Final_dists_var [0.0001 0.0002 0.0002]
+===========================================================================================
+
+Updates 1460 | Num timesteps 11968512 | Time 2:47:34.394103 | FPS 1190
+Mean reward [-0.517 -0.517 -0.517]
+Entropy 0.6222 Value loss 0.0107 Policy loss 0.0134
+
+Updates 1470 | Num timesteps 12050432 | Time 2:48:41.849293 | FPS 1190
+Mean reward [-0.5853 -0.5853 -0.5853]
+Entropy 0.6086 Value loss 0.0108 Policy loss 0.0158
+
+Updates 1480 | Num timesteps 12132352 | Time 2:49:49.679621 | FPS 1190
+Mean reward [-0.6046 -0.6046 -0.6046]
+Entropy 0.6387 Value loss 0.0085 Policy loss 0.0126
+
+Updates 1490 | Num timesteps 12214272 | Time 2:50:57.077155 | FPS 1190
+Mean reward [-0.5879 -0.5879 -0.5879]
+Entropy 0.6505 Value loss 0.0112 Policy loss 0.0110
+
+Updates 1500 | Num timesteps 12296192 | Time 2:52:05.841292 | FPS 1190
+Mean reward [-0.5757 -0.5757 -0.5757]
+Entropy 0.6283 Value loss 0.0117 Policy loss 0.0228
+
+===========================================================================================
+Evaluation Seed:  96609
+Evaluation 30 | Mean per-step reward -0.28
+Num success 27/30 | Episode Length 17.90
+Final_dists_mean [0.0324 0.026  0.0287]
+Final_dists_var [0.0019 0.0002 0.0002]
+===========================================================================================
+
+Updates 1510 | Num timesteps 12378112 | Time 2:53:16.225267 | FPS 1190
+Mean reward [-0.7702 -0.7702 -0.7702]
+Entropy 0.6458 Value loss 0.0149 Policy loss 0.0222
+
+Updates 1520 | Num timesteps 12460032 | Time 2:54:25.988231 | FPS 1190
+Mean reward [-0.4894 -0.4894 -0.4894]
+Entropy 0.6086 Value loss 0.0076 Policy loss 0.0220
+
+Updates 1530 | Num timesteps 12541952 | Time 2:55:35.994338 | FPS 1190
+Mean reward [-0.6541 -0.6541 -0.6541]
+Entropy 0.6273 Value loss 0.0113 Policy loss 0.0095
+
+Updates 1540 | Num timesteps 12623872 | Time 2:56:46.964746 | FPS 1190
+Mean reward [-0.6524 -0.6524 -0.6524]
+Entropy 0.6120 Value loss 0.0093 Policy loss 0.0086
+
+Updates 1550 | Num timesteps 12705792 | Time 2:57:56.890379 | FPS 1190
+Mean reward [-0.617 -0.617 -0.617]
+Entropy 0.6349 Value loss 0.0112 Policy loss 0.0171
+
+===========================================================================================
+Evaluation Seed:  8009
+Evaluation 31 | Mean per-step reward -0.31
+Num success 30/30 | Episode Length 14.23
+Final_dists_mean [0.0254 0.0246 0.0275]
+Final_dists_var [0.0002 0.0002 0.0001]
+===========================================================================================
+
+Updates 1560 | Num timesteps 12787712 | Time 2:59:07.751731 | FPS 1189
+Mean reward [-0.5791 -0.5791 -0.5791]
+Entropy 0.6078 Value loss 0.0108 Policy loss 0.0145
+
+Updates 1570 | Num timesteps 12869632 | Time 3:00:17.507810 | FPS 1189
+Mean reward [-0.6287 -0.6287 -0.6287]
+Entropy 0.6715 Value loss 0.0158 Policy loss 0.0071
+
+Updates 1580 | Num timesteps 12951552 | Time 3:01:27.957980 | FPS 1189
+Mean reward [-0.5852 -0.5852 -0.5852]
+Entropy 0.6487 Value loss 0.0099 Policy loss 0.0187
+
+Updates 1590 | Num timesteps 13033472 | Time 3:02:37.646023 | FPS 1189
+Mean reward [-0.6115 -0.6115 -0.6115]
+Entropy 0.6342 Value loss 0.0128 Policy loss 0.0150
+
+Updates 1600 | Num timesteps 13115392 | Time 3:03:45.745641 | FPS 1189
+Mean reward [-0.5399 -0.5399 -0.5399]
+Entropy 0.6289 Value loss 0.0115 Policy loss 0.0158
+
+===========================================================================================
+Evaluation Seed:  69942
+Evaluation 32 | Mean per-step reward -0.29
+Num success 30/30 | Episode Length 13.10
+Final_dists_mean [0.028  0.023  0.0235]
+Final_dists_var [0.0002 0.0002 0.0001]
+===========================================================================================
+
+Updates 1610 | Num timesteps 13197312 | Time 3:04:57.068845 | FPS 1189
+Mean reward [-0.5729 -0.5729 -0.5729]
+Entropy 0.6108 Value loss 0.0096 Policy loss 0.0188
+
+Updates 1620 | Num timesteps 13279232 | Time 3:06:07.187384 | FPS 1189
+Mean reward [-0.6015 -0.6015 -0.6015]
+Entropy 0.6453 Value loss 0.0117 Policy loss 0.0122
+
+Updates 1630 | Num timesteps 13361152 | Time 3:07:17.632552 | FPS 1188
+Mean reward [-0.5017 -0.5017 -0.5017]
+Entropy 0.6385 Value loss 0.0104 Policy loss 0.0225
+
+Updates 1640 | Num timesteps 13443072 | Time 3:08:26.024767 | FPS 1189
+Mean reward [-0.6077 -0.6077 -0.6077]
+Entropy 0.6371 Value loss 0.0135 Policy loss 0.0135
+
+Updates 1650 | Num timesteps 13524992 | Time 3:09:36.663091 | FPS 1188
+Mean reward [-0.6051 -0.6051 -0.6051]
+Entropy 0.6489 Value loss 0.0101 Policy loss 0.0180
+
+===========================================================================================
+Evaluation Seed:  31662
+Evaluation 33 | Mean per-step reward -0.31
+Num success 30/30 | Episode Length 11.50
+Final_dists_mean [0.0279 0.0243 0.0298]
+Final_dists_var [0.0002 0.0001 0.0001]
+===========================================================================================
+
+Updates 1660 | Num timesteps 13606912 | Time 3:10:48.069957 | FPS 1188
+Mean reward [-0.6181 -0.6181 -0.6181]
+Entropy 0.6384 Value loss 0.0131 Policy loss 0.0095
+
+Updates 1670 | Num timesteps 13688832 | Time 3:11:57.903025 | FPS 1188
+Mean reward [-0.6204 -0.6204 -0.6204]
+Entropy 0.6464 Value loss 0.0133 Policy loss 0.0112
+
+Updates 1680 | Num timesteps 13770752 | Time 3:13:07.063732 | FPS 1188
+Mean reward [-0.6091 -0.6091 -0.6091]
+Entropy 0.6240 Value loss 0.0128 Policy loss 0.0143
+
+Updates 1690 | Num timesteps 13852672 | Time 3:14:16.342567 | FPS 1188
+Mean reward [-0.6399 -0.6399 -0.6399]
+Entropy 0.6178 Value loss 0.0103 Policy loss 0.0109
+
+Updates 1700 | Num timesteps 13934592 | Time 3:15:25.193468 | FPS 1188
+Mean reward [-0.5798 -0.5798 -0.5798]
+Entropy 0.5912 Value loss 0.0089 Policy loss 0.0140
+
+===========================================================================================
+Evaluation Seed:  41699
+Evaluation 34 | Mean per-step reward -0.28
+Num success 29/30 | Episode Length 14.30
+Final_dists_mean [0.0311 0.0289 0.0314]
+Final_dists_var [0.0001 0.0002 0.0002]
+===========================================================================================
+
+Updates 1710 | Num timesteps 14016512 | Time 3:16:36.229973 | FPS 1188
+Mean reward [-0.6705 -0.6705 -0.6705]
+Entropy 0.6033 Value loss 0.0140 Policy loss 0.0124
+
+Updates 1720 | Num timesteps 14098432 | Time 3:17:46.094829 | FPS 1188
+Mean reward [-0.6045 -0.6045 -0.6045]
+Entropy 0.6028 Value loss 0.0103 Policy loss 0.0073
+
+Updates 1730 | Num timesteps 14180352 | Time 3:18:56.098373 | FPS 1188
+Mean reward [-0.5192 -0.5192 -0.5192]
+Entropy 0.6098 Value loss 0.0110 Policy loss 0.0159
+
+Updates 1740 | Num timesteps 14262272 | Time 3:20:05.005218 | FPS 1188
+Mean reward [-0.5863 -0.5863 -0.5863]
+Entropy 0.6241 Value loss 0.0111 Policy loss 0.0208
+
+Updates 1750 | Num timesteps 14344192 | Time 3:21:14.784779 | FPS 1187
+Mean reward [-0.7634 -0.7634 -0.7634]
+Entropy 0.6373 Value loss 0.0137 Policy loss 0.0477
+
+===========================================================================================
+Evaluation Seed:  42222
+Evaluation 35 | Mean per-step reward -0.30
+Num success 29/30 | Episode Length 13.47
+Final_dists_mean [0.0321 0.0246 0.0265]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 1760 | Num timesteps 14426112 | Time 3:22:26.093557 | FPS 1187
+Mean reward [-0.6865 -0.6865 -0.6865]
+Entropy 0.6247 Value loss 0.0112 Policy loss 0.0155
+
+Updates 1770 | Num timesteps 14508032 | Time 3:23:36.704773 | FPS 1187
+Mean reward [-0.5311 -0.5311 -0.5311]
+Entropy 0.6335 Value loss 0.0140 Policy loss 0.0156
+
+Updates 1780 | Num timesteps 14589952 | Time 3:24:46.270140 | FPS 1187
+Mean reward [-0.5684 -0.5684 -0.5684]
+Entropy 0.6119 Value loss 0.0100 Policy loss 0.0089
+
+Updates 1790 | Num timesteps 14671872 | Time 3:25:56.290963 | FPS 1187
+Mean reward [-0.5918 -0.5918 -0.5918]
+Entropy 0.6165 Value loss 0.0138 Policy loss 0.0137
+
+Updates 1800 | Num timesteps 14753792 | Time 3:27:07.708785 | FPS 1187
+Mean reward [-0.5671 -0.5671 -0.5671]
+Entropy 0.6084 Value loss 0.0113 Policy loss 0.0090
+
+===========================================================================================
+Evaluation Seed:  28845
+Evaluation 36 | Mean per-step reward -0.29
+Num success 30/30 | Episode Length 11.73
+Final_dists_mean [0.0273 0.0261 0.0287]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 1810 | Num timesteps 14835712 | Time 3:28:17.375524 | FPS 1187
+Mean reward [-0.6578 -0.6578 -0.6578]
+Entropy 0.6043 Value loss 0.0118 Policy loss 0.0142
+
+Updates 1820 | Num timesteps 14917632 | Time 3:29:26.791330 | FPS 1187
+Mean reward [-0.4919 -0.4919 -0.4919]
+Entropy 0.6101 Value loss 0.0099 Policy loss 0.0160
+
+Updates 1830 | Num timesteps 14999552 | Time 3:30:37.063309 | FPS 1186
+Mean reward [-0.5676 -0.5676 -0.5676]
+Entropy 0.6360 Value loss 0.0104 Policy loss 0.0168
+
+Updates 1840 | Num timesteps 15081472 | Time 3:31:46.841501 | FPS 1186
+Mean reward [-0.609 -0.609 -0.609]
+Entropy 0.6325 Value loss 0.0131 Policy loss 0.0135
+
+Updates 1850 | Num timesteps 15163392 | Time 3:32:55.535518 | FPS 1186
+Mean reward [-0.6554 -0.6554 -0.6554]
+Entropy 0.6241 Value loss 0.0117 Policy loss 0.0239
+
+===========================================================================================
+Evaluation Seed:  1854
+Evaluation 37 | Mean per-step reward -0.28
+Num success 29/30 | Episode Length 14.30
+Final_dists_mean [0.0274 0.0262 0.0252]
+Final_dists_var [0.0002 0.0001 0.0001]
+===========================================================================================
+
+Updates 1860 | Num timesteps 15245312 | Time 3:34:06.803747 | FPS 1186
+Mean reward [-0.6269 -0.6269 -0.6269]
+Entropy 0.6077 Value loss 0.0114 Policy loss 0.0192
+
+Updates 1870 | Num timesteps 15327232 | Time 3:35:16.341702 | FPS 1186
+Mean reward [-0.6206 -0.6206 -0.6206]
+Entropy 0.6177 Value loss 0.0156 Policy loss 0.0124
+
+Updates 1880 | Num timesteps 15409152 | Time 3:36:26.251557 | FPS 1186
+Mean reward [-0.5486 -0.5486 -0.5486]
+Entropy 0.5942 Value loss 0.0124 Policy loss 0.0151
+
+Updates 1890 | Num timesteps 15491072 | Time 3:37:34.852466 | FPS 1186
+Mean reward [-0.6121 -0.6121 -0.6121]
+Entropy 0.6053 Value loss 0.0124 Policy loss 0.0101
+
+Updates 1900 | Num timesteps 15572992 | Time 3:38:43.459512 | FPS 1186
+Mean reward [-0.5528 -0.5528 -0.5528]
+Entropy 0.6039 Value loss 0.0142 Policy loss 0.0254
+
+===========================================================================================
+Evaluation Seed:  45029
+Evaluation 38 | Mean per-step reward -0.29
+Num success 30/30 | Episode Length 12.33
+Final_dists_mean [0.0224 0.0288 0.0283]
+Final_dists_var [0.0001 0.0002 0.0002]
+===========================================================================================
+
+Updates 1910 | Num timesteps 15654912 | Time 3:39:54.628626 | FPS 1186
+Mean reward [-0.598 -0.598 -0.598]
+Entropy 0.5953 Value loss 0.0138 Policy loss 0.0148
+
+Updates 1920 | Num timesteps 15736832 | Time 3:41:03.240942 | FPS 1186
+Mean reward [-0.5628 -0.5628 -0.5628]
+Entropy 0.5939 Value loss 0.0135 Policy loss 0.0087
+
+Updates 1930 | Num timesteps 15818752 | Time 3:42:12.306206 | FPS 1186
+Mean reward [-0.6417 -0.6417 -0.6417]
+Entropy 0.5732 Value loss 0.0117 Policy loss 0.0171
+
+Updates 1940 | Num timesteps 15900672 | Time 3:43:22.601018 | FPS 1186
+Mean reward [-0.6483 -0.6483 -0.6483]
+Entropy 0.5930 Value loss 0.0132 Policy loss 0.0105
+
+Updates 1950 | Num timesteps 15982592 | Time 3:44:32.678287 | FPS 1186
+Mean reward [-0.6356 -0.6356 -0.6356]
+Entropy 0.6069 Value loss 0.0133 Policy loss 0.0098
+
+===========================================================================================
+Evaluation Seed:  88282
+Evaluation 39 | Mean per-step reward -0.27
+Num success 30/30 | Episode Length 11.00
+Final_dists_mean [0.0301 0.0274 0.0259]
+Final_dists_var [0.0002 0.0002 0.0001]
+===========================================================================================
+
+Updates 1960 | Num timesteps 16064512 | Time 3:45:44.084246 | FPS 1186
+Mean reward [-0.5557 -0.5557 -0.5557]
+Entropy 0.6247 Value loss 0.0137 Policy loss 0.0183
+
+Updates 1970 | Num timesteps 16146432 | Time 3:46:54.456864 | FPS 1185
+Mean reward [-0.6477 -0.6477 -0.6477]
+Entropy 0.6007 Value loss 0.0136 Policy loss 0.0153
+
+Updates 1980 | Num timesteps 16228352 | Time 3:48:02.855779 | FPS 1186
+Mean reward [-0.7137 -0.7137 -0.7137]
+Entropy 0.5772 Value loss 0.0129 Policy loss 0.0150
+
+Updates 1990 | Num timesteps 16310272 | Time 3:49:11.923605 | FPS 1186
+Mean reward [-0.7146 -0.7146 -0.7146]
+Entropy 0.6053 Value loss 0.0152 Policy loss 0.0130
+
+Updates 2000 | Num timesteps 16392192 | Time 3:50:21.171516 | FPS 1186
+Mean reward [-0.6045 -0.6045 -0.6045]
+Entropy 0.5763 Value loss 0.0133 Policy loss 0.0140
+
+===========================================================================================
+Evaluation Seed:  35054
+Evaluation 40 | Mean per-step reward -0.31
+Num success 30/30 | Episode Length 11.37
+Final_dists_mean [0.0236 0.0218 0.0268]
+Final_dists_var [0.0002 0.0001 0.0002]
+===========================================================================================
+
+Updates 2010 | Num timesteps 16474112 | Time 3:51:32.950768 | FPS 1185
+Mean reward [-0.5205 -0.5205 -0.5205]
+Entropy 0.5692 Value loss 0.0138 Policy loss 0.0103
+
+Updates 2020 | Num timesteps 16556032 | Time 3:52:42.839991 | FPS 1185
+Mean reward [-0.7231 -0.7231 -0.7231]
+Entropy 0.5901 Value loss 0.0169 Policy loss 0.0104
+
+Updates 2030 | Num timesteps 16637952 | Time 3:53:52.157217 | FPS 1185
+Mean reward [-0.6425 -0.6425 -0.6425]
+Entropy 0.5798 Value loss 0.0139 Policy loss 0.0104
+
+Updates 2040 | Num timesteps 16719872 | Time 3:55:01.789235 | FPS 1185
+Mean reward [-0.6975 -0.6975 -0.6975]
+Entropy 0.5960 Value loss 0.0112 Policy loss 0.0163
+
+Updates 2050 | Num timesteps 16801792 | Time 3:56:11.529010 | FPS 1185
+Mean reward [-0.6139 -0.6139 -0.6139]
+Entropy 0.6103 Value loss 0.0098 Policy loss 0.0141
+
+===========================================================================================
+Evaluation Seed:  84280
+Evaluation 41 | Mean per-step reward -0.30
+Num success 30/30 | Episode Length 12.57
+Final_dists_mean [0.0248 0.0224 0.0241]
+Final_dists_var [0.0002 0.0001 0.0002]
+===========================================================================================
+
+Updates 2060 | Num timesteps 16883712 | Time 3:57:23.976701 | FPS 1185
+Mean reward [-0.5234 -0.5234 -0.5234]
+Entropy 0.5798 Value loss 0.0133 Policy loss 0.0092
+
+Updates 2070 | Num timesteps 16965632 | Time 3:58:34.684363 | FPS 1185
+Mean reward [-0.6486 -0.6486 -0.6486]
+Entropy 0.6027 Value loss 0.0142 Policy loss 0.0151
+
+Updates 2080 | Num timesteps 17047552 | Time 3:59:44.743820 | FPS 1185
+Mean reward [-0.7539 -0.7539 -0.7539]
+Entropy 0.5982 Value loss 0.0149 Policy loss 0.0231
+
+Updates 2090 | Num timesteps 17129472 | Time 4:00:56.549074 | FPS 1184
+Mean reward [-0.679 -0.679 -0.679]
+Entropy 0.5951 Value loss 0.0148 Policy loss 0.0111
+
+Updates 2100 | Num timesteps 17211392 | Time 4:02:04.877207 | FPS 1184
+Mean reward [-0.6982 -0.6982 -0.6982]
+Entropy 0.6109 Value loss 0.0150 Policy loss 0.0214
+
+===========================================================================================
+Evaluation Seed:  26435
+Evaluation 42 | Mean per-step reward -0.29
+Num success 29/30 | Episode Length 12.83
+Final_dists_mean [0.0224 0.0576 0.021 ]
+Final_dists_var [0.0002 0.0213 0.0002]
+===========================================================================================
+
+Updates 2110 | Num timesteps 17293312 | Time 4:03:16.242984 | FPS 1184
+Mean reward [-0.6953 -0.6953 -0.6953]
+Entropy 0.5943 Value loss 0.0127 Policy loss 0.0157
+
+Updates 2120 | Num timesteps 17375232 | Time 4:04:25.476711 | FPS 1184
+Mean reward [-0.6047 -0.6047 -0.6047]
+Entropy 0.6091 Value loss 0.0127 Policy loss 0.0137
+
+Updates 2130 | Num timesteps 17457152 | Time 4:05:35.469278 | FPS 1184
+Mean reward [-0.7326 -0.7326 -0.7326]
+Entropy 0.6121 Value loss 0.0196 Policy loss 0.0102
+
+Updates 2140 | Num timesteps 17539072 | Time 4:06:39.901631 | FPS 1185
+Mean reward [-0.7441 -0.7441 -0.7441]
+Entropy 0.5971 Value loss 0.0167 Policy loss 0.0161
+
+Updates 2150 | Num timesteps 17620992 | Time 4:07:45.558118 | FPS 1185
+Mean reward [-0.6436 -0.6436 -0.6436]
+Entropy 0.5751 Value loss 0.0132 Policy loss 0.0131
+
+===========================================================================================
+Evaluation Seed:  68360
+Evaluation 43 | Mean per-step reward -0.30
+Num success 30/30 | Episode Length 11.70
+Final_dists_mean [0.0247 0.0257 0.028 ]
+Final_dists_var [0.0002 0.0002 0.0002]
+===========================================================================================
+
+Updates 2160 | Num timesteps 17702912 | Time 4:08:52.932765 | FPS 1185
+Mean reward [-0.708 -0.708 -0.708]
+Entropy 0.6079 Value loss 0.0140 Policy loss 0.0109
+
+Updates 2170 | Num timesteps 17784832 | Time 4:10:03.153304 | FPS 1185
+Mean reward [-0.6867 -0.6867 -0.6867]
+Entropy 0.5856 Value loss 0.0146 Policy loss 0.0119
+
+Updates 2180 | Num timesteps 17866752 | Time 4:11:12.896385 | FPS 1185
+Mean reward [-0.6641 -0.6641 -0.6641]
+Entropy 0.5962 Value loss 0.0134 Policy loss 0.0142
+
+Updates 2190 | Num timesteps 17948672 | Time 4:12:21.455998 | FPS 1185
+Mean reward [-0.7538 -0.7538 -0.7538]
+Entropy 0.6032 Value loss 0.0168 Policy loss 0.0210
+
+Updates 2200 | Num timesteps 18030592 | Time 4:13:29.684634 | FPS 1185
+Mean reward [-0.5944 -0.5944 -0.5944]
+Entropy 0.5818 Value loss 0.0138 Policy loss 0.0206
+
+===========================================================================================
+Evaluation Seed:  2837
+Evaluation 44 | Mean per-step reward -0.28
+Num success 30/30 | Episode Length 14.83
+Final_dists_mean [0.031  0.0218 0.0284]
+Final_dists_var [0.0001 0.0002 0.0001]
+===========================================================================================
+
+Updates 2210 | Num timesteps 18112512 | Time 4:14:40.865869 | FPS 1185
+Mean reward [-0.8378 -0.8378 -0.8378]
+Entropy 0.5703 Value loss 0.0146 Policy loss 0.0156
+
+Updates 2220 | Num timesteps 18194432 | Time 4:15:49.130379 | FPS 1185
+Mean reward [-0.7142 -0.7142 -0.7142]
+Entropy 0.5789 Value loss 0.0155 Policy loss 0.0110
+
+Updates 2230 | Num timesteps 18276352 | Time 4:16:55.679857 | FPS 1185
+Mean reward [-0.6739 -0.6739 -0.6739]
+Entropy 0.5816 Value loss 0.0153 Policy loss 0.0117
+
+Updates 2240 | Num timesteps 18358272 | Time 4:18:04.596070 | FPS 1185
+Mean reward [-0.6217 -0.6217 -0.6217]
+Entropy 0.5613 Value loss 0.0149 Policy loss 0.0137
+
+Updates 2250 | Num timesteps 18440192 | Time 4:19:11.145522 | FPS 1185
+Mean reward [-0.5924 -0.5924 -0.5924]
+Entropy 0.5978 Value loss 0.0125 Policy loss 0.0152
+
+===========================================================================================
+Evaluation Seed:  19913
+Evaluation 45 | Mean per-step reward -0.30
+Num success 30/30 | Episode Length 12.50
+Final_dists_mean [0.0257 0.0252 0.0255]
+Final_dists_var [0.0001 0.0002 0.0002]
+===========================================================================================
+
