@@ -2,11 +2,11 @@
 
 ## Description
 ### About
-> This repositiory consist of the implementation for the work on "Multi-Agent Reinforcement Learning in SparselyConnected Cooperative Environments"
+> This repositiory consist of the implementation for the work on "Multi-Agent Reinforcement Learning in Sparsely Connected Cooperative Environments"
 
 ### Abstract
 
-> In   multi-agent   systems,   an   agent’s   behaviour   isaffected  by  the  dynamicity  of  the  environment  and  that  of  theinteractions  among  agents.  Thus,  in  learning  to  cooperate  tosolve  complex  tasks,  such  considerations  should  be  taken  intoaccount. Reinforcement learning has gained immense interest inthis line of research as it allows agents to learn useful behaviourby  dynamically  interacting  with  the  environment  and  with  oneanother.  In  this  work,  we  propose  a  model  which  exploits  theinherent graph-like structure of multi-agent networks to facilitatethe learning of more robust behaviour strategies by capturing thespatial  dependencies  and  temporal  dynamics  of  the  underlyinggraph. In practice, partial observability, as well as restricted com-munication  can  result  in  agents  learning  sub-optimal  strategies.The proposed model addresses these issues by allowing each agentto recurrently propagate information through its neighbourhood,thus  gradually  increasing  its  receptive  field.  Empirically,  wedemonstrate the effectiveness of the proposed model on a varietyof  cooperative  control  tasks.
+> In recent years, the consensus among adaptive agents within multi-agent systems (MAS) has been an emerging area of research in the field of autonomous control. Reinforcement Learning (RL) has gained immense interest in this line of work as it aims to learn optimal cooperative policies through trial and error by dynamically interacting with the environment. However, in practice, connectivity within the multi-agent network may be sparse and the agents are often subjected to partial observability. This can result in the learning of sub-optimal policies. In this work, we consider the problem of learning optimal policies in cooperative multi-agent environments in the face of partial observability and sparse connectivity. The proposed model exploits the inherent graph-like structure of multi-agent systems. Graph Neural Networks (GNNs) are utilized to extract spatial dependencies and temporal dynamics of the underlying graph. Such spatio-temporal information is exploited to generate better state representations so as to facilitate the learning of more robust policies. Empirically, we demonstrate the effectiveness of the proposed model on a variety of well-known cooperative control tasks. 
 ## Code Structure
 
 #### 1. arguments.py
