@@ -27,3 +27,8 @@
 #### 6. mape
 > consists of the RL enviornment implementation 
 
+## Installation
+> Create a virtualenv in Python3.5
+> Execute ''''pip3 install -r requirements.txt''' to install the list of required dependencies from ```requirements.txt``` file
+
+
