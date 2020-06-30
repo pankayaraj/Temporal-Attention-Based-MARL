@@ -1,0 +1,117 @@
+Process Process-48:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/group17/marl/marl_transfer/src/gym-vecenv/gym_vecenv/subproc_vec_env.py", line 9, in worker
+    cmd, data = remote.recv()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process Process-24:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/group17/marl/marl_transfer/src/gym-vecenv/gym_vecenv/subproc_vec_env.py", line 9, in worker
+    cmd, data = remote.recv()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process Process-41:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/group17/marl/marl_transfer/src/gym-vecenv/gym_vecenv/subproc_vec_env.py", line 9, in worker
+    cmd, data = remote.recv()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/group17/marl/marl_transfer/src/gym-vecenv/gym_vecenv/subproc_vec_env.py", line 9, in worker
+    cmd, data = remote.recv()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process Process-43:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/group17/marl/marl_transfer/src/gym-vecenv/gym_vecenv/subproc_vec_env.py", line 9, in worker
+    cmd, data = remote.recv()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process Process-20:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/group17/marl/marl_transfer/src/gym-vecenv/gym_vecenv/subproc_vec_env.py", line 9, in worker
+    cmd, data = remote.recv()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process Process-36:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/group17/marl/marl_transfer/src/gym-vecenv/gym_vecenv/subproc_vec_env.py", line 9, in worker
+    cmd, data = remote.recv()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.5/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 140, in <module>
+    train(args)
+  File "main.py", line 37, in train
+    actions_list = master.act(step)
+  File "/home/group17/latest/Temporal_Attention_v2/Temporal_Attention_v2/learner.py", line 106, in act
+    props = policy.act(all_obs, all_hidden, all_masks, deterministic=False) # a single forward pass 
+  File "/home/group17/latest/Temporal_Attention_v2/Temporal_Attention_v2/mpnn.py", line 174, in act
+    x, state = self._fwd(inp, state, mask)
+  File "/home/group17/latest/Temporal_Attention_v2/Temporal_Attention_v2/mpnn.py", line 124, in _fwd
+    hidden_init = [torch.rand(1, batch_size, self.h_dim).to(self.device),
+KeyboardInterrupt
