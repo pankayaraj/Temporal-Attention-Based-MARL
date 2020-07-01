@@ -33,16 +33,20 @@
 #### On Linux:
 * Open the terminal in the directory where you want to setup the virtual environment.
 * Use the following command to create a python3 virtual environment named "env"
+
 ```python3 -m venv env```
 
 * Use the following command to activate the virtual environment created.
+
 ```source env/bin/activate```
 
 * Use the following command to leave the virtual environment.
+
 ```deactivate```
 
 > Installing the list of required dependencies within the created virtual environment.
 
 * Execute the following command to install the list of required dependencies from ```requirements.txt``` file
+
 ```pip3 install -r requirements.txt```
 
