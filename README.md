@@ -64,4 +64,4 @@
 
 To get cleaner version of the output from the log.txt, you could use following command. This will produce the new file ```filtered.txt```
 
-```cat log.txt | grep "Num success" > filtered.txt
+```cat log.txt | grep "Num success" > filtered.txt```
