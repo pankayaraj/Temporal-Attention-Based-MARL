@@ -50,3 +50,11 @@
 
 ```pip3 install -r requirements.txt```
 
+
+## Example
+
+* Running the ```main.py``` script with the following arguments will train 3 agents in a ```simple_line``` environment and dump the results into a new directory named 0 in within marlsave directory.
+
+```python3 main.py --env-name simple_line --num-agents 3 --save-dir 0```
+
+* Please refer ```arguments.py``` for a complete list of arguments.
