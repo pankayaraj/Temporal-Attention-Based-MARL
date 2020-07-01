@@ -58,3 +58,10 @@
 ```python3 main.py --env-name simple_line --num-agents 3 --save-dir 0```
 
 * Please refer ```arguments.py``` for a complete list of arguments.
+* TIP: Redirecting the both stdout and stderr into two separate files would make it easier to debug and to track outputs. In the following example, the standard output stream is redirected to log.txt file while, standard error stream is redirected to log.err.txt file. You could casually ```cat``` the log.txt to see current status.
+
+```python3 main.py --env-name simple_line --num-agents 3 --save-dir 0 > log.txt 2> log.err.txt  ``` 
+
+To get cleaner version of the output from the log.txt, you could use following command. This will produce the new file ```filtered.txt```
+
+```cat log.txt | grep "Num success" > filtered.txt
