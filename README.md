@@ -3,6 +3,7 @@
 ## Description
 ### About
 > This repository includes the corresponding implementation for the work on "Multi-Agent Reinforcement Learning in Sparsely Connected Cooperative Environments"
+This work was built on top of the https://github.com/sumitsk/marl_transfer repository.
 
 ### Abstract
 
